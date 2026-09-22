@@ -1,0 +1,20 @@
+﻿uses GraphABC;
+begin
+  SetWindowSize(500,500);
+  Circle(50,50,10);
+  FloodFill(50,50,clBlue);
+  Circle(100,100,15);
+  FloodFill(100,100,clPurple);
+  Circle(150,150,30);
+  FloodFill(150,150,clSkyBlue);
+  Circle(200,200,40);
+  FloodFill(200,200,clRed);
+  Circle(250,250,50);
+  FloodFill(250,250,clFuchsia);
+  Circle(300,300,60);
+  FloodFill(300,300,clNavy);
+  Circle(350,350,70);
+  FloodFill(350,350,clPurple);
+  Circle(400,400,80);
+  FloodFill(400,400,clGreen);
+end.

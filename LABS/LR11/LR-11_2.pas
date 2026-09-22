@@ -1,0 +1,31 @@
+﻿uses GraphABC;
+begin
+  SetWindowSize(1000,600);
+  moveTo(450,300);
+  lineTo(500,100);
+  moveTo(550,300);
+  lineTo(500,100);
+  moveTo(550,300);
+  lineTo(450,300);
+  FloodFill(500,200,clRed);
+  Circle(500,100,30);
+  FloodFill(500,100,clred);
+  moveTo(400,300);
+  lineTo(250,100);
+  moveTo(550,300);
+  lineTo(250,100);
+  moveTo(400,300);
+  lineTo(550,300);
+  FloodFill(300,150,clBlue);
+  Circle(250,100,30);
+  FloodFill(250,100,clBlue);
+  moveTo(600,300);
+  lineTo(750,100);
+  moveTo(450,300);
+  lineTo(750,100);
+  moveTo(450,300);
+  LineTo(600,300);
+  FloodFill(650,200,clLime);
+  Circle(750,100,30);
+  FloodFill(750,100,clGreen);
+end.
